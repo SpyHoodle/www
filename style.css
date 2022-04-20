@@ -1,0 +1,55 @@
+body {
+  background-color: #000000;
+  background-size: cover;
+  color: #ffffff;
+  margin: auto;
+  font-family: "Terminus", "Fira Code", monospace, sans-serif;
+}
+body {
+  margin: auto;
+  max-width: 1000px;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 20px;
+}
+h2,
+p,
+ul {
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  margin: 0;
+  color: white;
+}
+
+div {
+  margin: 10px;
+  font-size: 15px;
+}
+
+div.header {
+  text-align: center;
+}
+
+div.footer {
+  text-align: center;
+}
+
+div.main-content {
+  text-align: center;
+}
+
+div.content {
+  text-align: left;
+}
+
+div.item {
+  display: inline-block;
+}
