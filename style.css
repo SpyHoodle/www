@@ -1,3 +1,12 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 body {
     background-color: #000000;
     background-size: cover;
@@ -54,4 +63,15 @@ div.content {
 
 div.item {
     display: inline-block;
+}
+
+img.lambda {
+    animation: rotation 10s infinite linear;
+    content: url("assets/lambda.png");
+    height: 150px;
+}
+
+img.lambda:hover {
+    animation: rotation 10s infinite linear;
+    content: url("assets/lambda-trans.png");
 }
