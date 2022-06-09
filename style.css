@@ -50,14 +50,14 @@ div.header {
 
 img.lambda {
   animation: rotation 10s infinite linear;
-  content: url("assets/lambda.png");
+  content: url("assets/lambda/lambda.png");
   height: 30px;
   vertical-align: bottom;
 }
 
 img.lambda:hover {
   animation: rotation 10s infinite linear;
-  content: url("assets/lambda-trans.png");
+  content: url("assets/lambda/lambda-trans.png");
 }
 
 /* menu */
@@ -77,4 +77,9 @@ div.menu ul
 div.footer
 {
   text-align: center;
+}
+
+div.footer a
+{
+  text-decoration: none;
 }
