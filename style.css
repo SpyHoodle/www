@@ -1,77 +1,80 @@
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
+/* rotation */
+@keyframes rotation
+{
+  from
+  {
+    transform: rotate(0deg);
+  }
+  to
+  {
+    transform: rotate(359deg);
+  }
 }
 
-body {
-    background-color: #000000;
-    background-size: cover;
-    color: #ffffff;
-    margin: auto;
-    font-family: "Terminus", "Fira Code", monospace, sans-serif;
+/* body */
+body
+{
+  font-family: "Terminus", "Iosevka", "Fira Code", monospace, sans-serif;
+  background-color: #000000;
+  background-size: cover;
+  max-width: 1000px;
+  color: #FFFFFF;
+  margin: auto;
 }
 
-body {
-    margin: auto;
-    max-width: 1000px;
-    color: #FFFFFF;
+/* global defaults */
+h1 { font-size: 20px; }
+h2, p, ul { font-size: 15px; }
+a { color: inherit; }
+hr { margin: 0; color: white; }
+hr.thin { margin: 0; color: grey; }
+div { margin: 10px; font-size: 15px; }
+
+/* banner */
+div.banner
+{
+  text-align: center;
 }
 
-h1 {
-    font-size: 20px;
-}
-
-h2,
-p,
-ul {
-    font-size: 15px;
-}
-
-a {
-    color: inherit;
-}
-
-hr {
-    margin: 0;
-    color: white;
-}
-
-div {
-    margin: 10px;
-    font-size: 15px;
-}
-
-div.header {
-    text-align: center;
-}
-
-div.footer {
-    text-align: center;
-}
-
-div.main-content {
-    text-align: center;
-}
-
+/* standard content */
 div.content {
-    text-align: left;
+  text-align: left;
 }
 
-div.item {
-    display: inline-block;
+/* header */
+div.header {
+  text-align: left;
+  height: 30px;
+  font-size: 22px;
 }
 
 img.lambda {
-    animation: rotation 10s infinite linear;
-    content: url("assets/lambda.png");
-    height: 150px;
+  animation: rotation 10s infinite linear;
+  content: url("assets/lambda.png");
+  height: 30px;
+  vertical-align: bottom;
 }
 
 img.lambda:hover {
-    animation: rotation 10s infinite linear;
-    content: url("assets/lambda-trans.png");
+  animation: rotation 10s infinite linear;
+  content: url("assets/lambda-trans.png");
+}
+
+/* menu */
+div.menu li
+{
+  display: inline-block;
+}
+
+div.menu ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* footer */
+div.footer
+{
+  text-align: center;
 }
