@@ -30,29 +30,15 @@ hr { margin: 0; color: white; }
 hr.thin { margin: 0; color: grey; }
 div { margin: 10px; font-size: 15px; }
 
-/* banner */
-div.banner
-{
-  text-align: center;
-}
-
-/* standard content */
-div.content {
-  text-align: left;
-}
-
-/* header */
-div.header {
-  text-align: left;
-  height: 30px;
-  font-size: 22px;
-}
-
+/* lambda */
 img.lambda {
   animation: rotation 10s infinite linear;
   content: url("assets/lambda/lambda.png");
-  height: 30px;
+  height: 200px;
   vertical-align: bottom;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.lambda:hover {
@@ -60,26 +46,13 @@ img.lambda:hover {
   content: url("assets/lambda/lambda-trans.png");
 }
 
-/* menu */
-div.menu li
-{
-  display: inline-block;
-}
-
-div.menu ul
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 /* footer */
-div.footer
+div.text
 {
   text-align: center;
 }
 
-div.footer a
+div.text a
 {
   text-decoration: none;
 }
